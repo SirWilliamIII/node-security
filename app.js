@@ -1,9 +1,4 @@
 const express = require('express')
-
-const mongoose = require('mongoose');
-mongoose.connect('mongodb://will:will12345@ds119302.mlab.com:19302/node-security');
-
-const db = mongoose.connection;
 const app = express()
 const port = 8888
 
